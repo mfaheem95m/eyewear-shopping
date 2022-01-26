@@ -1,0 +1,79 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: whitesmoke;
+}
+.item{
+  display: grid;
+ grid-template-columns: 30px 200px 150px  repeat(3,1fr) 100px ;
+ width: 80%;
+  margin: 20px auto;
+  border: 1px solid silver;
+}
+.special{
+  color: #8d8d8d;
+}
+.amount{
+background-color: white;
+}
+.buttonn{
+  font-size: 15px;
+  border: none;
+  padding-left: 12px;
+  padding-right: 13px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+
+  }
+.buttond{
+  font-size: 15px;
+  border: none;
+  padding-left: 14px;
+  padding-right: 15px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.pic{
+background-color: white;
+}
+.imageUse{
+  width: 100%;
+}
+
+.quantity{
+  background-color: white;
+  padding-left: 10px;
+}
+.spec{
+  padding-top:3 px ;
+  text-decoration: underline;
+}
+.size{
+background-color: white;
+}
+.color{background-color: white;
+}
+.color1{
+  width: 25px;
+  height: 25px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: burlywood;
+}
+.price{background-color: white;
+}
+.cancel{background-color: white;
+  padding-left: 15px;
+}
+.cancelButton{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 25px;
+  border: none;
+}
