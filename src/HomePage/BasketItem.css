@@ -1,0 +1,35 @@
+
+
+.headernot{
+  width: 75%;
+  margin: 20px auto;
+  border: 1px solid silver;
+  background-color: whitesmoke;
+
+}
+.first{
+padding-left: 100px;
+}
+.footering{
+  display: grid;
+ grid-template-columns: repeat(2,1fr);
+}
+.butting{
+  padding-left: 200px;
+}
+.checking{
+  padding: 12px 12px;
+  color: white;
+  background-color: black;
+}
+.heading{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.close{
+  padding: 12px 12px;
+}
+.clearing{
+  padding: 12px 30px;
+
+}
