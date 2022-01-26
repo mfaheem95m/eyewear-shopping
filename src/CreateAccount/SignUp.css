@@ -1,0 +1,139 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: whitesmoke;
+}
+.loginpage{
+  width: 75%;
+  margin: 20px auto;
+  border: 1px solid silver;
+  display: grid;
+  grid-template-columns: 1.2fr 0.2fr 1fr;
+  grid-template-rows: 60px 250px 80px 80px;
+
+ ;
+
+}
+.header{
+background-color: white;
+grid-column: 1/-1;
+padding-top: 18px;
+padding-left: 15px;
+}
+.mainDiv1{
+  background-color: white;
+  padding-left: 40px;
+
+}
+.nameI{
+  padding: 7px 7px;
+  width: 300px;
+}
+.emailI{
+  padding: 7px 7px;
+  width: 300px;
+}
+.passI{
+  padding: 7px 7px;
+  width: 300px;
+}
+.maindiv3{
+  background-color: white;
+}
+.vl {
+  border-left: 1px solid silver;
+  height: 70px;
+}
+.mainDiv2{
+  background-color: white;
+  text-align: center;
+
+}
+.under{
+  text-decoration: underline;
+  opacity: 0.8;
+}
+.facebook{
+  padding-top: 10px;
+text-align: center;
+background: #0078ff;
+font-size: 16px;
+width: 55%;
+padding-top: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+}
+.google{
+
+  color: black;
+  text-align: center;
+  background-color: white;
+  font-size: 16px;
+  width: 55%;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+}
+.github{
+
+  text-align: center;
+  background: #24292e;
+  font-size: 16px;
+  width: 55%;
+  color: white;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+}
+.signIn{
+  background-color: white;
+  grid-column: 1/-1;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px
+
+ ;
+
+
+}
+button.butt{
+  color: white;
+  font-size: 15px;
+  border: none;
+  background-color: black;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+
+
+}
+.footer{
+  background-color: #f2f2f2;
+  grid-column: 1/-1;
+  text-align: center;
+  padding-left: 15px;
+}
+.already{
+  color: #4a4a4a;
+  padding-top: 20px;
+
+}
+.horizontal{
+  width: auto;
+
+}
+.smallbutt{
+  border: 1px solid white;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  font-size: 13px;
+}
