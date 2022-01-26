@@ -1,0 +1,88 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: whitesmoke;
+}
+
+nav#navigate {
+
+  padding-top: 50px;
+  padding-bottom: 20px;
+
+
+}
+
+
+.home{
+padding-left: 15px;
+padding-right: 10px;
+border : none;
+}
+.shop{
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+.featured{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.recomended{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.basket1{
+  padding: 7px 2px;
+  font-size: 35px;
+
+}
+.sign{
+  padding-left: 50px;
+  padding-right: 15px;
+}
+.signin{
+
+  padding-left: 2px;
+  padding-right: 15px;
+
+}
+.search{
+  padding-right: 5px;
+
+}
+button.buttonH{
+  font-size: 14px;
+  border: none;
+  padding: 6px 6px;
+
+}
+button.filter{
+  padding: 10px 10px;
+}
+.input{
+  padding: 10px 10px;
+  width: 300px;
+
+}
+.searching{
+  padding: 10px 10px;
+}
+button.signIn{
+  background-color: black;
+  font-size: 15px;
+  display: inline-block;
+  text-align: center;
+  padding: 15px 10px;
+  color: white;
+}
+button.signUp{
+  background-color: white;
+  font-size: 15px;
+  display: inline-block;
+  text-align: center;
+  padding: 15px 10px;
+  color: black;
+}
