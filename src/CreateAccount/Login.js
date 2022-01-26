@@ -1,5 +1,5 @@
 import React from "react"
-import "./SingUp.css"
+import "./SignUp.css"
 import Header from "../HomePage/Header"
 import myContext from "../Context"
 import {Link,navigate} from '@reach/router'

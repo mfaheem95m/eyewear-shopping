@@ -4,7 +4,7 @@ import DisplayItems from "./HomePage/Items"
 import { Router ,Redirect} from "@reach/router";
 import SignUp from "./CreateAccount/SignUp"
 import Login from "./CreateAccount/Login"
-
+import Cart from "./HomePage/BasketLayout"
 import myContext,{Provider} from "./Context"
 import data from "./Data"
 
@@ -132,7 +132,7 @@ console.log("context state", this.state)
         }
 
        <DisplayItems path = "/items" />
-
+       <Cart path =  "/cart" />
 
 
 
