@@ -1,0 +1,66 @@
+
+body {
+  background-color: whitesmoke;
+}
+.gridCont {
+  display: grid;
+  grid-template-columns: repeat(6,auto);
+  grid-template-rows: repeat(3,250px);
+  grid-gap: 10px;
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+
+
+
+}
+.gridItem {
+  border : 1px  solid whitesmoke;
+  background-color: white;
+  text-align: center;
+
+}
+.notshow{
+  display: none;
+}
+img.image {
+  background-color: rgb(255, 255, 255);
+  width: auto;
+  height: 80px;
+  padding-left: 22px;
+  padding-right: 22px;
+
+
+
+
+
+}
+.basket{
+  background-color: rgba(0, 0, 0, 0.555);
+  color: white;
+  width: 100%;
+  font-size: 20px;
+  padding: 10px 10px;
+
+
+}
+
+
+.location {
+  opacity: 0.5;
+}
+
+
+.whole :hover {
+  background-color: aquamarine;
+
+}
+
+
+
+
+
+.byt :hover {
+  background-color: silver;
+
+}
