@@ -58,82 +58,82 @@ inputPassword(e){
       <div>
 
 
-    <div class = "loginpage">
-      <div class = "header">
+    <div className = "loginpage">
+      <div className = "header">
       <h3> Sign up to Salinaka
 </h3>
        </div>
-      <div class = "mainDiv1">
+      <div className = "mainDiv1">
 
        <div>
        <br/>
        <br/>
          <h5>* Email</h5>
          <br/>
-         <input  class = "emailI" type = "email" placeholder = " test@example.com " onChange={this.inputEmail}/>
+         <input  className = "emailI" type = "email" placeholder = " test@example.com " onChange={this.inputEmail}/>
 
        </div>
        <div>
        <br/>
          <h5>* Password</h5>
          <br/>
-         <input class = "passI"  type = "text" placeholder = " Your Password" onChange={this.inputPassword}/>
+         <input  className = "passI"  type = "text" placeholder = " Your Password" onChange={this.inputPassword}/>
 
        </div>
        <div>
          <br/>
-         <h5 class= "under"> Forget password? </h5>
+         <h5  className= "under"> Forget password? </h5>
        </div>
        </div>
-       <div class = "maindiv3">
+       <div  className = "maindiv3">
          <br/>
          <br/>
-        <div class = "vl"/>
+        <div  className= "vl"/>
         <br/>
         <h6> OR </h6>
         <br/>
 
-        <div class = "vl"/>
+        <div  className= "vl"/>
       </div>
-      <div class = "mainDiv2">
+      <div  className = "mainDiv2">
         <div>
           <br/>
           <br/>
-          <button class="facebook">
+          <button  className="facebook">
         Continue with Facebook
       </button>
         </div>
       <div>
         <br/>
-      <button class = "google">
+      <button  className= "google">
         Continue with Google
       </button>
       </div>
       <div>
        <br/>
-      <button class = "github">
+      <button  className= "github">
         Continue with Github
       </button>
       </div>
       </div>
 
-      <div class = "signIn">
+      <div  className= "signIn">
         {/* {
           userDetail.filter(item => )
         } */}
 
 
- <button class="butt" onClick={this.userLogin}>
+ <button  className="butt" onClick={this.userLogin}>
 Sign in
 
          </button>
 
       </div>
-      <div class = "footer">
-      <hr class = "horizontal"/>
-      <h5 class = "already">Do not have account? registered here
+      <div  className = "footer">
+      <hr  className= "horizontal"/>
+      <h5  className= "already">Do not have account? registered here
       <Link to =  "/signup">
-      <button  class = "smallbutt">Sign up </button>
+      <button   className = "smallbutt">Sign up </button>
       </Link>
 
       </h5>

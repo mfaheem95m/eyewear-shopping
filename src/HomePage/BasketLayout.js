@@ -25,14 +25,14 @@ class Cart extends React.Component {
       <Header/>
       </header>
       <div className ="headernot">
-      <div class = "heading">
+      <div className = "heading">
 
 <div>
  <br/>
  <br/>
  <h2 className ="first"> My Basket </h2>
 </div>
-<div class = "butting">
+<div  className = "butting">
  <br/><br/>
  <button className = "close"> Close </button>
  <button className = "clearing" onClick ={onClear}> clear basket </button>
@@ -43,7 +43,7 @@ class Cart extends React.Component {
     </div>
       <footer>
 <hr/>
-        <div class = "footering">
+        <div  className = "footering">
 
          <div>
           <br/>

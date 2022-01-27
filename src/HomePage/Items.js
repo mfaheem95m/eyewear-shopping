@@ -79,7 +79,7 @@ navigate("/")
       <div className ="gridCont">
         {date.map(item => (
 
-        <div class= "whole">
+        <div  className= "whole">
           <div className = "gridItem">
 
          <div>

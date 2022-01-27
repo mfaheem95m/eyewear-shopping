@@ -25,7 +25,7 @@ class Header extends React.Component {
         <Link to="/items" className = "home">
         <button className= "buttonH">Home</button>
           </Link>
-        <Link to ="/shop" class = "shop">
+        <Link to ="/shop" className= "shop">
           <button className = "buttonH">
             Shop
           </button>

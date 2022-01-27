@@ -96,7 +96,7 @@ console.log(userDetail)
           <br/>
             <h5>* Password</h5>
             <br/>
-            <input className = "passI"  type = "password" value ={this.state.password} onChange ={this.inputPassword} maxlength="8" />
+            <input className = "passI"  type = "password" value ={this.state.password} onChange ={this.inputPassword} maxLength="8" />
 
           </div>
           </div>
