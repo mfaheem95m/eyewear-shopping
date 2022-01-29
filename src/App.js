@@ -123,12 +123,12 @@ console.log("context state", this.state)
         { !this.state.isLogin ?
         <Login path = "/" />
         :
-        <Redirect from="/"  to="/items" />
+        <Redirect from="/"  to="/items" noThrow/>
         }
          { !this.state.isLogin ?
         <SignUp  path = "/signup"/>
         :
-        <Redirect from="/signup"  to="/items" />
+        <Redirect from="/signup"  to="/items" noThrow/>
         }
 
        <DisplayItems path = "/items" />

@@ -29,7 +29,10 @@ onAdd(items){
   listedElement.filter(item =>{
     if(item.name === items.name){
      return  val = true
+    }else{
+     return  val
     }
+
   })
   return val
 }
@@ -56,12 +59,13 @@ onAdd(items){
     const {data} = this.context
     const date =data.filter(item =>{
       const  val = this.state.value
-            if(item.name.toLowerCase().includes(val)){
+         if(item.name.toLowerCase().includes(val)){
         return true
 
       }else{
         return false
       }
+
     }
   )
  console.log("df",this.props)
@@ -79,7 +83,7 @@ navigate("/")
       <div className ="gridCont">
         {date.map(item => (
 
-        <div  className= "whole">
+        <div key = {item.id} className= "whole">
           <div className = "gridItem">
 
          <div>
@@ -95,7 +99,7 @@ navigate("/")
 </div>
  </div>
 
-<div class = "byt">
+<div className = "byt">
 <button className = "basket"  onClick = {() => this.added(item)}>
 
 {

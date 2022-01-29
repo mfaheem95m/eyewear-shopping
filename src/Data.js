@@ -4,6 +4,7 @@ const data =  [
   brand : "Salt",
   price : 67.00,
   quantity:1,
+  id : 1,
   click:false
  },
  {image : "https://firebasestorage.googleapis.com/v0/b/salinaka-ecommerce.appspot.com/o/products%2FYIZuxWur1W4fAT6z3ejk?alt=media&token=7dca264f-c345-4cfc-93a8-60217a53f66a",
@@ -11,6 +12,7 @@ const data =  [
   brand : "Salt",
   price : 67.00,
   quantity:1,
+  id : 2,
   click:false
  },
  {image : "https://firebasestorage.googleapis.com/v0/b/salinaka-ecommerce.appspot.com/o/products%2FYIZuxWur1W4fAT6z3ejk?alt=media&token=7dca264f-c345-4cfc-93a8-60217a53f66a",
@@ -18,6 +20,7 @@ const data =  [
   brand : "Salt",
   price : 67.00,
   quantity:1,
+  id : 3,
   click:false
  },
  {image : "https://firebasestorage.googleapis.com/v0/b/salinaka-ecommerce.appspot.com/o/products%2FYIZuxWur1W4fAT6z3ejk?alt=media&token=7dca264f-c345-4cfc-93a8-60217a53f66a",
@@ -25,6 +28,7 @@ const data =  [
   brand : "Salt",
   price : 67.00,
   quantity:1,
+  id : 4,
   click:false
  },
  {image : "https://firebasestorage.googleapis.com/v0/b/salinaka-ecommerce.appspot.com/o/products%2FYIZuxWur1W4fAT6z3ejk?alt=media&token=7dca264f-c345-4cfc-93a8-60217a53f66a",
@@ -32,6 +36,7 @@ const data =  [
  brand : "Salt",
  price : 67.00,
  quantity:1,
+ id : 5,
  click:false
 },
 {image : "https://firebasestorage.googleapis.com/v0/b/salinaka-ecommerce.appspot.com/o/products%2FYIZuxWur1W4fAT6z3ejk?alt=media&token=7dca264f-c345-4cfc-93a8-60217a53f66a",
@@ -39,6 +44,7 @@ const data =  [
   brand : "Salt",
   price : 67.00,
   quantity:1,
+  id : 6,
   click:false
  },
  {image : "https://firebasestorage.googleapis.com/v0/b/salinaka-ecommerce.appspot.com/o/products%2FYIZuxWur1W4fAT6z3ejk?alt=media&token=7dca264f-c345-4cfc-93a8-60217a53f66a",
@@ -46,6 +52,7 @@ const data =  [
   brand : "Salt",
   price : 67.00,
   quantity:1,
+  id : 7,
   click:false
  },
  {image : "https://firebasestorage.googleapis.com/v0/b/salinaka-ecommerce.appspot.com/o/products%2FYIZuxWur1W4fAT6z3ejk?alt=media&token=7dca264f-c345-4cfc-93a8-60217a53f66a",
@@ -53,6 +60,7 @@ const data =  [
   brand : "Salt",
   price : 67.00,
   quantity:1,
+  id : 8,
   click:false
  },
  {image : "https://firebasestorage.googleapis.com/v0/b/salinaka-ecommerce.appspot.com/o/products%2FYIZuxWur1W4fAT6z3ejk?alt=media&token=7dca264f-c345-4cfc-93a8-60217a53f66a",
@@ -60,6 +68,7 @@ const data =  [
   brand : "Salt",
   price : 67.00,
   quantity:1,
+  id : 9,
   click:false
  },
  {image : "https://firebasestorage.googleapis.com/v0/b/salinaka-ecommerce.appspot.com/o/products%2FYIZuxWur1W4fAT6z3ejk?alt=media&token=7dca264f-c345-4cfc-93a8-60217a53f66a",
@@ -67,6 +76,7 @@ const data =  [
   brand : "Salt",
   price : 67.00,
   quantity:1,
+  id : 10,
   click:false
  },
  {image : "https://firebasestorage.googleapis.com/v0/b/salinaka-ecommerce.appspot.com/o/products%2FYIZuxWur1W4fAT6z3ejk?alt=media&token=7dca264f-c345-4cfc-93a8-60217a53f66a",
@@ -74,6 +84,7 @@ const data =  [
   brand : "Salt",
   price : 67.00,
   quantity:1,
+  id : 11,
   click:false
  },
  {image : "https://firebasestorage.googleapis.com/v0/b/salinaka-ecommerce.appspot.com/o/products%2FYIZuxWur1W4fAT6z3ejk?alt=media&token=7dca264f-c345-4cfc-93a8-60217a53f66a",
@@ -81,6 +92,7 @@ const data =  [
   brand : "Salt",
   price : 67.00,
   quantity:1,
+  id : 12,
   click:false
  },
  {image : "https://firebasestorage.googleapis.com/v0/b/salinaka-ecommerce.appspot.com/o/products%2FYIZuxWur1W4fAT6z3ejk?alt=media&token=7dca264f-c345-4cfc-93a8-60217a53f66a",
@@ -88,6 +100,7 @@ const data =  [
   brand : "Salt",
   price : 67.00,
   quantity:1,
+  id : 13,
   click:false
  },
  {image : "https://firebasestorage.googleapis.com/v0/b/salinaka-ecommerce.appspot.com/o/products%2FYIZuxWur1W4fAT6z3ejk?alt=media&token=7dca264f-c345-4cfc-93a8-60217a53f66a",
@@ -95,6 +108,7 @@ const data =  [
   brand : "Salt",
   price : 67.00,
   quantity:1,
+  id : 14,
   click:false
  },
  {image : "https://firebasestorage.googleapis.com/v0/b/salinaka-ecommerce.appspot.com/o/products%2FYIZuxWur1W4fAT6z3ejk?alt=media&token=7dca264f-c345-4cfc-93a8-60217a53f66a",
@@ -102,6 +116,7 @@ const data =  [
   brand : "Salt",
   price : 67.00,
   quantity:1,
+  id : 15,
   click:false
  },
  {image : "https://firebasestorage.googleapis.com/v0/b/salinaka-ecommerce.appspot.com/o/products%2FYIZuxWur1W4fAT6z3ejk?alt=media&token=7dca264f-c345-4cfc-93a8-60217a53f66a",
@@ -109,6 +124,7 @@ const data =  [
   brand : "Salt",
   price : 67.00,
   quantity:1,
+  id : 16,
   click:false
  },
  {image : "https://firebasestorage.googleapis.com/v0/b/salinaka-ecommerce.appspot.com/o/products%2FYIZuxWur1W4fAT6z3ejk?alt=media&token=7dca264f-c345-4cfc-93a8-60217a53f66a",
@@ -116,6 +132,7 @@ const data =  [
   brand : "Salt",
   price : 67.00,
   quantity:1,
+  id : 17,
   click:false
  },
  {image : "https://firebasestorage.googleapis.com/v0/b/salinaka-ecommerce.appspot.com/o/products%2FYIZuxWur1W4fAT6z3ejk?alt=media&token=7dca264f-c345-4cfc-93a8-60217a53f66a",
@@ -123,6 +140,7 @@ const data =  [
   brand : "Salt",
   price : 67.00,
   quantity:1,
+  id : 18,
   click:false
  }
 ]
