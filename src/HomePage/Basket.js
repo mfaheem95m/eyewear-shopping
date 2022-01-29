@@ -21,7 +21,7 @@ render(){
 
   {listedElement.map(item => (
 
-    <div className = "item">
+    <div key = {item.id} className = "item">
     <div className = "amount">
 
      <button className = "buttonn" onClick = { ()=> onIncrement(item.name)
