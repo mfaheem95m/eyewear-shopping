@@ -32,14 +32,14 @@ class Header extends React.Component {
 
         </Link>
         <Link to = "/featured" className = "featured">
-        <button className = "buttonH">Featured</button>
+        <button className = "buttonH" disabled>Featured</button>
         </Link>
         <Link  to = "/recomended" className = "recomended">
 
-        <button className = "buttonH">Recomended</button>
+        <button className = "buttonH" disabled>Recomended</button>
         </Link>
         <Link to = "/filter" className = "search" >
-          <button className= "filter">Filter <AiOutlineFilter/></button>
+          <button className= "filter" disabled>Filter <AiOutlineFilter/></button>
           </Link>
         <input className="input" type = "text" placeholder = "search product...." value = {value} onChange= {onChange} />
 

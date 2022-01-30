@@ -77,7 +77,8 @@ inputPassword(e){
        <br/>
          <h5>* Password</h5>
          <br/>
-         <input  className = "passI"  type = "text" placeholder = " Your Password" onChange={this.inputPassword}/>
+
+         <input className = "passI"  type = "password" value ={this.state.password} onChange ={this.inputPassword} maxLength="8" />
 
        </div>
        <div>

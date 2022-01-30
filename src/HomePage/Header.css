@@ -36,7 +36,7 @@ border : none;
 }
 .basket1{
   padding: 7px 2px;
-  font-size: 35px;
+  font-size: 36px;
 
 }
 .sign{
@@ -85,4 +85,8 @@ button.signUp{
   text-align: center;
   padding: 15px 10px;
   color: black;
+}
+.button {
+  padding: 10px 10px;
+
 }
