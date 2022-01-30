@@ -3,8 +3,7 @@
 A Eye Wear Shopping Cart build to implement and understand React Advance Features
 
 <ul>
-  <li>Pet Finder API</li>
-  <li>Latest React with Class Components</li>
+  <li>Latest React with Class Components and Lifecycles</li>
   <li>React HOC</li>
   <li>State Management With Context API</li>
 </ul>
@@ -15,5 +14,7 @@ A Eye Wear Shopping Cart build to implement and understand React Advance Feature
   <img src="./public/homePage.png">
   <br />
   <img src="./public/cart-page.png">
+  <br />
+   <img src="./public/filter.png">
   <br />
 </p>
