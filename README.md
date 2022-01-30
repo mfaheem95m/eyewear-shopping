@@ -1,4 +1,4 @@
-# A Pet Finder App
+# A Eye Wear Shopping App
 
 A Eye Wear Shopping Cart build to implement and understand React Advance Features
 
