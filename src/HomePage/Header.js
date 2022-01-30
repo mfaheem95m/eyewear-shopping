@@ -26,7 +26,7 @@ class Header extends React.Component {
         <button className= "buttonH">Home</button>
           </Link>
         <Link to ="/shop" className= "shop">
-          <button className = "buttonH">
+          <button className = "buttonH" disabled>
             Shop
           </button>
 

@@ -83,7 +83,7 @@ navigate("/")
       <div className ="gridCont">
         {date.map(item => (
 
-        <div key = {item.id} className= "whole">
+        <div id = "neww" key = {item.id} className= "whole">
           <div className = "gridItem">
 
          <div>
@@ -99,7 +99,7 @@ navigate("/")
 </div>
  </div>
 
-<div className = "byt">
+<div id = "byt">
 <button className = "basket"  onClick = {() => this.added(item)}>
 
 {

@@ -24,7 +24,7 @@ body {
   display: none;
 }
 img.image {
-  background-color: rgb(255, 255, 255);
+
   width: auto;
   height: 80px;
   padding-left: 22px;
@@ -51,7 +51,7 @@ img.image {
 }
 
 
-.whole :hover {
+#neww :hover {
   background-color: aquamarine;
 
 }
@@ -60,7 +60,7 @@ img.image {
 
 
 
-.byt :hover {
+#byt :hover {
   background-color: silver;
 
 }
